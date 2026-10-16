@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CommunityBot Privacy Policy</title>
+<style>body{font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif;max-width:780px;margin:48px auto;padding:0 20px;color:#202632}h1,h2{line-height:1.25}a{color:#5b45c9}.note{padding:12px 16px;background:#fff6d7;border-radius:8px}li{margin:.4em 0}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:16px;color:#596273}</style>
+</head>
+<body>
+<p><a href="index.html">← CommunityBot Policies</a></p>
+<h1>CommunityBot Privacy Policy</h1>
+<p><strong>Last updated:</strong> 16 October 2026</p>
+<p class="note"><strong>Before publishing:</strong> Replace every bracketed placeholder and confirm this matches your actual hosting, logging, and AI configuration. This is general information, not legal advice.</p>
+<h2>1. Operator and contact</h2>
+<p>CommunityBot is operated by <strong>[YOUR NAME OR ORGANIZATION]</strong> (“the operator”). Privacy questions or data requests: <strong>[PUBLIC CONTACT EMAIL OR SUPPORT SERVER LINK]</strong>.</p>
+<h2>2. Data the bot processes</h2>
+<p>Depending on enabled features, CommunityBot may process:</p>
+<ul>
+<li>Discord user IDs, server IDs, channel IDs, and role IDs needed to identify commands, configure a server, or assign an approved self-role.</li>
+<li>XP totals, level information, and activity counters used for ranks and leaderboards.</li>
+<li>Moderation records, including warning reasons, moderator IDs, and timestamps. Reasons entered by moderators may become part of a member’s warning history.</li>
+<li>Server configuration, including welcome and log channel choices, feature toggles, approved self-assignable roles, and custom command responses.</li>
+<li>Operational logs, including startup events, command errors, and diagnostic details.</li>
+<li>If AI is enabled, the text of prompts sent with the AI command.</li>
+</ul>
+<p>The bot is designed not to store ordinary message bodies for XP or message-rate monitoring. Moderators may choose to enter text as a moderation reason or custom response, and those fields can be stored. Discord itself processes data under its own privacy policy.</p>
+<h2>3. How data is used</h2>
+<p>Data is used to run commands, save server configuration, maintain warning histories, calculate ranks, assign approved roles, send configured welcome or log messages, troubleshoot errors, and provide optional AI replies. Data is not sold by the bot software.</p>
+<h2>4. Where data is stored and shared</h2>
+<p>In the standard self-hosted setup, the database and logs are stored in the bot operator’s configured data directory on the machine or hosting service running the bot. Anyone who administers that machine or has access to those files may be able to access the data. The bot communicates with Discord to provide its features.</p>
+<p>AI is disabled by default. If enabled, prompts are sent to the configured Ollama endpoint. The default endpoint is local to the bot machine; if the operator configures a remote endpoint, that endpoint’s operator may receive and process the prompts under their own terms. Do not submit secrets or sensitive personal information to the AI command.</p>
+<p>The operator should update this policy if hosting changes, integrations are added, or other third-party services are used.</p>
+<h2>5. Retention and deletion</h2>
+<p>Data remains in the bot’s SQLite database and log files until it is deleted, overwritten, or removed under the operator’s retention practices. Warning history can be cleared using the bot’s authorized command. Other records may require the operator to perform a database maintenance action. To request access or deletion, contact <strong>[PUBLIC CONTACT EMAIL OR SUPPORT SERVER LINK]</strong> and identify the server and relevant user ID; do not send passwords or authentication tokens.</p>
+<p>When the bot is permanently discontinued, the operator should remove stored databases and logs unless retention is required by law.</p>
+<h2>6. Security</h2>
+<p>The bot token and database should be kept private, access to the host should be restricted, and backups should be protected. No software or transmission method can be guaranteed to be perfectly secure. If a token is exposed, the operator should reset it promptly in the Discord Developer Portal.</p>
+<h2>7. Children’s privacy</h2>
+<p>The bot is intended to be used within Discord and is subject to Discord’s age requirements and rules. Do not use the bot to collect sensitive personal information from members.</p>
+<h2>8. Changes</h2>
+<p>This policy may be updated when features, hosting, or data handling change. The latest version should remain available at the public URL entered in the Discord Developer Portal.</p>
+<h2>9. Contact</h2>
+<p>Privacy requests: <strong>[PUBLIC CONTACT EMAIL OR SUPPORT SERVER LINK]</strong>.</p>
+<footer><a href="terms.html">Terms of Service</a></footer>
+</body></html>
